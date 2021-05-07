@@ -25,7 +25,11 @@ body {
 .wrapper {
     width: 1000px;
     position: absolute;
-    background-color:darkslateblue;
+    background-image: url(Image/9d3038827e7b0880a23317ef9c0bbbfa.png);
+    background-color: mediumblue;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -42,7 +46,7 @@ body {
 }
 
 .player-name {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -55,12 +59,14 @@ body {
 .player-score {
     text-align: center;
     font-size: 150px;
-    font-weight: 100;
+    font-weight: 130;
     color: whitesmoke;
     margin-bottom: 130px;
 }
-
-.active { background-color: cyan; }
+.active {background-image: url(Image/rl-car-22.webp); }
+.active { background-color: orange; }
+.active {background-position: center; }
+.active {background-size: cover; }
 .active .player-name { font-weight: 300; }
 
 .active .player-name::after {
@@ -119,14 +125,14 @@ i {
     color: #EB4D4D;
     display: inline-block;
     margin-right: 15px;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1;
     vertical-align: text-top;
     margin-top: -4px;
     transition: margin 0.3s;
 }
 
-.btn-new { top: 45px;}
+.btn-new { top: 55px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
@@ -160,3 +166,4 @@ i {
 }
 
 #winningScore:focus { outline: none; }
+
