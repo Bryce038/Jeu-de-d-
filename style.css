@@ -25,11 +25,7 @@ body {
 .wrapper {
     width: 1000px;
     position: absolute;
-    background-image: url(Image/9d3038827e7b0880a23317ef9c0bbbfa.png);
     background-color: mediumblue;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -43,6 +39,8 @@ body {
     float: left;
     height: 600px;
     padding: 100px;
+    color: yellowgreen;
+    font-size: 22px;
 }
 
 .player-name {
@@ -63,12 +61,9 @@ body {
     color: whitesmoke;
     margin-bottom: 130px;
 }
-.active {background-image: url(Image/rl-car-22.webp); }
-.active { background-color: orange; }
-.active {background-position: center; }
-.active {background-size: cover; }
-.active .player-name { font-weight: 300; }
 
+.active .player-name { font-weight: 300; }
+.active {background-color: royalblue; }
 .active .player-name::after {
     content: "\2022";
     font-size: 47px;
@@ -91,7 +86,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 20px;
-    color: #222;
+    color: white;
 }
 
 .player-current-score {
@@ -103,11 +98,11 @@ button {
     width: 200px;
     left: 50%;
     transform: translateX(-50%);
-    color: #555;
+    color: yellowgreen;
     background: none;
     border: none;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 300;
@@ -132,7 +127,7 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-new { top: 55px;}
+.btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
@@ -156,7 +151,7 @@ i {
     top: 520px;
     left: 50%;
     text-transform: uppercase; 
-    color: #555;
+    color: white;
     font-size: 18px;
     font-family: 'Lato';
     text-align: center;
@@ -167,3 +162,6 @@ i {
 
 #winningScore:focus { outline: none; }
 
+h2 {
+    font-size: 25px;
+}
