@@ -39,7 +39,7 @@ body {
     float: left;
     height: 600px;
     padding: 100px;
-    color: yellowgreen;
+    color: cyan;
     font-size: 22px;
 }
 
@@ -68,9 +68,9 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: whitesmoke;
+    color: orange;
     top: -7px;
-    right: 10px;
+    right: 0px;
 }
 
 .player-current-box {
