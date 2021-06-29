@@ -1,0 +1,206 @@
+
+
+@media (min-width: 320px) {
+    #egg{
+        padding-top: 15%;
+    }
+      h3{
+          padding-top: 15%;
+          font-size: 90%;
+       }
+       
+       h4{
+           padding-bottom: 50%;
+           font-size: 90%;
+        }
+  
+        h2{
+            padding-bottom: 10%;
+        }
+
+        h2,h3,h4     {
+            font-size: 12px;
+            margin-bottom: 0px;
+            height: auto;
+               }   
+
+      }
+
+
+
+
+@media (min-width: 576px) {
+  #egg{
+      padding-top: 15%;
+  }
+    h3{
+        padding-top: 5%;
+        font-size: 90%;
+     }
+     
+     h4{
+         padding-bottom: 30%;
+         font-size: 90%;
+      }
+
+      h2{
+          padding-bottom: 10%;
+      }
+    }
+
+@media only screen and (min-width: 576px) and (orientation: landscape) {
+   
+
+
+    h3{
+        padding-top: 5%;
+        font-size: 100%;
+     }
+     
+     h4{
+         padding-bottom: 30%;
+         font-size: 100%;
+      }
+    }
+  
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  
+    #son{
+        width: 30px;
+        height: auto;
+     }
+         
+    h2,h3,h4     {
+        font-size: 20px;
+        margin-bottom: 0px;
+        height: auto;
+           }   
+
+    h3{
+        padding-top: 7%;
+     }
+     
+     h4{
+         padding-bottom: 30%;
+      }
+
+
+    .btn {
+        
+  height: 40px;
+     
+      
+      padding: 0px;
+      font-size: 20px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    #son{
+        width: 30px;
+        height: auto;
+     }
+         
+    h2,h3,h4     {
+        font-size: 20px;
+        margin-bottom: 0px;
+        height: auto;
+           }   
+
+    h3{
+        padding-top: 7%;
+     }
+     
+     h4{
+         padding-bottom: 30%;
+      }
+
+
+    .btn {
+        
+  height: 40px;
+     
+      
+      padding: 0px;
+      font-size: 20px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    #egg{
+        padding-top: 5%;
+    }
+    
+    h2,h3,h4     {
+        font-size: 25px;
+        margin-bottom: 0px;
+        height: auto;
+           }   
+    h3{
+        padding-top: 5%;
+     }
+     
+     h4{
+         padding-bottom: 20%;
+      }
+
+
+
+}
+
+@media(min-width: 1200.98px) {
+    .container{
+     
+        background-size: 95%;
+     
+    }
+
+    h2,h3,h4     {
+        font-size: 30px;
+        margin-bottom: 0px;
+        height: auto;
+           }   
+
+    h3{
+        padding-top: 5%;
+     }
+     
+     h4{
+         padding-bottom: 15%;
+      }
+  }
+
+h2{
+    padding-top: 10%;
+}
+
+@media(min-width: 1400px) {
+    .container{
+     
+        background-size: 95%;
+     
+    }
+
+    h3{
+        padding-top: 5%;
+     }
+     
+     h4{
+         padding-bottom: 20%;
+      }
+
+      h2,h3,h4     {
+        font-size: 35px;
+        margin-bottom: 0px;
+        height: auto;
+           }   
+
+           H1{
+               font-size: 50px;
+           }
+  }

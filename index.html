@@ -1,66 +1,111 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
-    <head>
-        
-        <!-- MetaTags -->
-        <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Jeu de dée réalisée dans la cadre d'une formation">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="fournel graziella">
+  <title>La course aux oeufs</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
 
-        <!-- Lato font-family -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+</head>
 
-        <!-- Ionic icons -->
-        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+<body>
 
-        <!-- Main styling file -->
-        <link type="text/css" rel="stylesheet" href="style.css">
-        
-        <!-- Title of the page -->
-        <title>DéDé Rocket</title>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="title">
+        <h1>La course aux oeufs</h1>
+      </div>
+    </div>
 
-    </head>
+    <div class="row">
+      <div class="col-md-12">
+        <a class="btn btn-success " id="newGame" role="button"> nouveau jeu</a>
+        <a class="btn btn-success" id="Rules" role="button">Règles</a>
+        <a class="btn btn-success" id="volumes" role="button"> <img span id="son" src="./image/son.png" width=30
+            height=30 alt="son"></a>
+      </div>
+    </div>
 
-    <body>
+    <div class="row">
+      <div class="col-md-5">
+        <h2 id="firstPlayer">Joueur 1</h2>
+        <img span id="Player1" src="./image/poule.png" alt="poule">
+      </div>
+      <div class="col-md-2">
+        <img span id="dice" src="./image/1.svg" alt="dés">
+        <img span id="egg" src="./image/panier1.svg" alt="egg">
+      </div>
+      <div class="col-md-5">
+        <h2 id="secondPlayer">Joueur 2</h2>
+        <img span id="Player2" src="./image/renard.png" alt="renard">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h3>Total:<span id="globalFirstPlayer">0</span></h3>
+      </div>
+      <div class="col-md-2">
+        <a class="btn btn-success " id="roll" role="button">Lancer </a>
+      </div>
+      <div class="col-md-5">
+        <h3>Total:<span id="globalSecondPlayer">0</span></h3>
+      </div>
+    </div>
 
-        <!-- Player 0 panel -->
-        <div class="wrapper clearfix">
-            <div class="player-0-panel active">
-                <div class="player-name" id="name-0">Joeur 1</div>
-                <div class="player-score" id="score-0">43</div>
-                <div class="player-current-box">
-                    <div class="player-current-label">Actuel</div>
-                    <div class="player-current-score" id="current-0">11</div>
-                </div>
-            </div>
-            <!-- End of player 0 panel -->
-            
-            <!-- Player 1 panel -->
-            <div class="player-1-panel">
-                <div class="player-name" id="name-1">Joeur 2</div>
-                <div class="player-score" id="score-1">72</div>
-                <div class="player-current-box">
-                    <div class="player-current-label">Actuel</div>
-                    <div class="player-current-score" id="current-1">0</div>
-                </div>
-            </div>
-            <!-- End of player 1 panel -->
-            
-            <!-- Buttons -->
-            <button class="btn-new"><i class="ion-ios-plus-outline"></i>Nouvelle partie</button>
-            <button class="btn-roll"><i class="ion-ios-loop"></i>Lance DéDé</button>
-            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Garder</button>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Tour:<span id="roundFirstPlayer">0</span></h4>
+      </div>
+      <div class="col-md-2">
+        <a class="btn btn-success" id="hold" role="button"> Valider</a>
+      </div>
+      <div class="col-md-5">
+        <h4>Tour:<span id="roundSecondPlayer">0</span></h4>
+      </div>
+    </div>
+  </div>
 
-            <!-- Input to set the winning score -->
-            <input type="text" id="winningScore" placeholder="Score Final">
-            
-            <!-- Dice images -->
-            <img src="dice-5.png" alt="Dice" class="dice" id="dice1">
-            
-        </div>
-        
-        <!-- JavaScript external files -->
-        <!-- <script src="app.js"></script> -->
-        <script src="challenges.js"></script>
+  <div id="rulesModal" class="modal">
+    <div class="modal-content">
+      <span class="close closeRules">&times;</span>
+      <h3 class="center">Règles du jeu :</h3>
+      <p>Les joueurs vont pouvoir lancer le dé plusieurs fois durant leur tour de jeu.
+        A chaque lancer, si le résultat du dé est compris entre 2 et 6, il est ajouté au score courant.
+        Si le dé affiche un score égal à 1, le score courant est perdu et c'est au tour du joueur suivant.</p>
+      <p>Après chaque lancer réussi, le joueur a le choix entre deux actions :</p>
+      <ul>
+        <li>Relancer le dé afin d'augmenter son score ( bouton <b>"Lancer"</b> )</li>
+        <li>Sauvegarder le score de la manche en l'ajoutant à son score total. ( bouton <b>"Valider"</b> )</li>
+      </ul>
+      <p>Le joueur arrivant en premier à un total de 100 gagne la partie !</p>
+    </div>
+  </div>
 
-    </body>
+
+
+
+
+
+
+  <script src="./main.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
