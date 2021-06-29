@@ -168,7 +168,7 @@ function soundhold(){
   }
 function loosersound(){
   if (soundDice==1) {
-  const audiolooser = new Audio('./Sound/loosersound.wav');
+  const audiolooser = new Audio('./Sound/loosersound.mp3');
   audiolooser.play()
   }
   }
