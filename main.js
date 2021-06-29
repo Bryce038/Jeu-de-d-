@@ -40,8 +40,7 @@ function roll(){
   let randomnumber = Math.floor(Math.random() * 6) + 1; 
   let dice = document.querySelector('#dice');
   dice.style.display = 'block';
-  egg.src ="./image/panier" + randomnumber+'.svg';
-  dice.src ="./image/" + randomnumber+'.svg';
+  dice.src ="./image/" + randomnumber+'.png';
   
 
   if ((activePlayer==1)&&(randomnumber>1)) { 

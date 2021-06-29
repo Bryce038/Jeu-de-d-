@@ -1,9 +1,7 @@
 
 
 @media (min-width: 320px) {
-    #egg{
-        padding-top: 15%;
-    }
+    
       h3{
           padding-top: 15%;
           font-size: 90%;
@@ -30,9 +28,7 @@
 
 
 @media (min-width: 576px) {
-  #egg{
-      padding-top: 15%;
-  }
+  
     h3{
         padding-top: 5%;
         font-size: 90%;
@@ -131,10 +127,7 @@
 }
 
 
-@media (min-width: 992px) {
-    #egg{
-        padding-top: 5%;
-    }
+@media 
     
     h2,h3,h4     {
         font-size: 25px;
