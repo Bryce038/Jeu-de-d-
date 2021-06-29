@@ -4,16 +4,17 @@ font-family: "Lato";
 src: url("./font/Lato-Italic.ttf");
 }
 html{
-    scroll-behavior: smooth; /*Navigation douce dans la page*/ 
+    scroll-behavior: smooth;  
   
 }
 
 body{
     
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    background-color: black;
+    background-color: mediumpurple;
+    
     }
 
 .container{
@@ -22,18 +23,18 @@ body{
  
 }
 
-/*-- Réglage des boutons --*/
+/*-- Réglage boutons --*/
 .btn {
 	box-shadow:inset 0px 1px 0px -2px black;
 	background:linear-gradient(to bottom,100%);
 	
 	border-radius:15px;
-	border:3px solid red;
+	border:3px solid whitesmoke;
 	display:inline-block;
 	cursor:pointer;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    height: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 0px;
     text-align: center;
     padding: 0px;
     font-size: 120px;
@@ -58,7 +59,7 @@ body{
     height: auto;
             }
  h1{
-    font-size: 35px;
+    font-size: 5px;
             }
 
          
@@ -88,11 +89,11 @@ margin-left: 12%;
 }
 
 #son{
-   width: 20px;
+   width: 30px;
     height: auto;
 }
 
-/*-- Rules Modal Style --*/
+/*-- Rules M-Style --*/
 .modal {
     display: none;
     position: fixed;
@@ -107,8 +108,8 @@ margin-left: 12%;
 }
 
 .modal-content {
-    background-color: #c2ab91;;
-    border-radius: 2vh;
+    background-color: whitesmoke;;
+    border-radius: 6vh;
     margin: 15% auto;
     padding: 20px;
     border: 2px solid #57422b;

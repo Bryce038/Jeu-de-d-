@@ -33,7 +33,7 @@ document.querySelector('#roundSecondPlayer').textContent=  roundSecondPlayer;
 
 }
 
-//Détermine le score du round et passe au joueurs suivant si 1
+//Détermine le score et passe au joueurs suivant
 
 function roll(){
   sounddice()
@@ -73,7 +73,8 @@ function roll(){
 
 }
 }
-//Ajoute le score du round au global et passe au joueurs suivant
+
+//Ajoute le score global et passe au joueurs suivant
 
 function hold(){
   soundhold()
@@ -115,7 +116,7 @@ function nextround(){
     Player2.style.opacity = "1";
 }
 }
-//jeu suivant en cas de victoires
+//jeu suivant aprés victoires
 
 function nextgame(){
   onoffinit()
@@ -130,7 +131,7 @@ function nextgame(){
   document.querySelector('#roundSecondPlayer').textContent=  roundSecondPlayer;
   document.querySelector('#score').textContent= score;
 }
-//image son 
+//son 
 
 function onoffinit(){
   if (soundDice == 1) {
@@ -140,7 +141,7 @@ function onoffinit(){
 }
 }
 
-//Bouton son on/off
+//son on/off
 
 function onoff(){
   if (soundDice == 1) {
@@ -178,16 +179,16 @@ let rulesModal = document.getElementById("rulesModal");
 let Rules = document.getElementById("Rules");
 let closeRules = document.getElementsByClassName("closeRules")[0];
 
-// Ouverture de la fenetre règles
+// Ouverture de la fenetre des règles
 Rules.onclick = function(e) {
   e.preventDefault();
   rulesModal.style.display = "block";
 }
-// Fermeture de la fenetre règles
+// Fermeture de la fenetre des règles
 closeRules.onclick = function() {
   rulesModal.style.display = "none";
 }
-// Fermeture de la fenetre règles si clic en-dehors
+// Fermeture de la fenetre règles clic en-dehors
 window.onclick = function(event) {
   if (event.target == rulesModal) {
       rulesModal.style.display = "none";
