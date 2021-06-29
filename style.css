@@ -40,24 +40,20 @@ body{
   font-size: 12px;
 }
 
-
-
-
 .btn:active {
 	position:relative;
-	top:1px;
+	top:4px;
 }
 
 .col-md-5 {
- 
     width: 40%;
     height: auto;
 }
 .col-md-2 {
-
     width: 20%;
     height: auto;
-            }
+            }   
+               
  h1{
     font-size: 0px;
             }
@@ -67,7 +63,7 @@ body{
 font-size: 100%;
 margin-bottom: 10px;
 height: auto;
-color: tomato;
+color: yellowgreen;
    }    
 
 h3{

@@ -20,7 +20,10 @@
             font-size: 12px;
             margin-bottom: 0px;
             height: auto;
-               }   
+               } 
+        #dice {
+          position: relative;
+        }         
 
       }
 
