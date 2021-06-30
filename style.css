@@ -25,23 +25,24 @@ body{
 /*-- Réglage boutons --*/
 .btn {
 	box-shadow:inset 0px 1px 0px -2px whitesmoke;
-	background:linear-gradient(to bottom, blue 5%, red 100%);
+	background:linear-gradient(to bottom, blue 5%, red 120%);
 	background-color:greenyellow;
-	border-radius:16px;
-	border:4px solid whitesmoke;
+	border-radius:160px;
+	border:2px solid whitesmoke;
 	display:inline-block;
 	cursor:pointer;
     margin-bottom: 5px;
     margin-top: 5px;
-    height: 25px;
+    height: 35px;
     text-align: center;
-    padding: 0px;
+    padding: 5px;
     font-size: 12px;
 }
 
 .btn:active {
 	position:relative;
 	top:4px;
+
 }
 
 .col-md-5 {
