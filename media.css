@@ -204,6 +204,10 @@
         background-size: 95%;
     }
 
+      h1 {
+          margin-top: -150px;
+      }
+
       h3 {
         padding-top: 5%;
     }
