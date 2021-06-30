@@ -13,33 +13,30 @@ body{
     text-align: center;
     background-color: mediumpurple;
     
-    }
+}
 
+    /*--Stade Fond--*/
 .container{
     background:url(./image/stade.jpg)no-repeat 60% 60%;
     border-radius: 25%;
     background-size: auto;
-    
- 
 }
-
 
 /*-- Réglage boutons --*/
 .btn {
 	box-shadow:inset 0px 1px 0px -2px whitesmoke;
 	background:linear-gradient(to bottom, blue 5%, red 100%);
 	background-color:greenyellow;
-	border-radius:12px;
+	border-radius:16px;
 	border:4px solid whitesmoke;
 	display:inline-block;
 	cursor:pointer;
     margin-bottom: 5px;
     margin-top: 5px;
-
-  height: 25px;
-  text-align: center;
-  padding: 0px;
-  font-size: 12px;
+    height: 25px;
+    text-align: center;
+    padding: 0px;
+    font-size: 12px;
 }
 
 .btn:active {
@@ -54,12 +51,12 @@ body{
 .col-md-2 {
     width: 20%;
     height: auto;
-            }   
+}   
 
 
- h1{
+ h1 {
     font-size: 0px;
-            }
+}
 
          
    h2,h3,h4     {
@@ -67,28 +64,28 @@ font-size: 100%;
 margin-bottom: 10px;
 height: auto;
 color: yellowgreen;
-   }    
+}    
 
-h3{
+h3 {
    padding-top: 8%;
 }
 
-h4{
+h4 {
     padding-bottom: 15%;
- }
+}
 
 
-#Player1,#Player2{
+#Player1,#Player2 {
     width: 75%;
     height: auto;
 }
 
 
-#firstPlayer{
+#firstPlayer {
 margin-left: 12%;
 }
 
-#son{
+#son {
    width: 30px;
     height: auto;
 }

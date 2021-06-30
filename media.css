@@ -56,7 +56,7 @@
     
     }  
       
-    }
+    
 
 @media only screen and (min-width: 576px) and (orientation: landscape) {
    
@@ -186,28 +186,27 @@
      h4 {
          padding-bottom: 15%;
       }
-  }
+  
 
     h2 {
     padding-top: 10%;
+}
 }
 
 
 
 @media(min-width: 1400px) {
-    .container{
-     
+      .container{
         background-size: 95%;
-     
     }
 
-    h3{
+      h3 {
         padding-top: 5%;
-     }
+    }
      
-     h4{
+      h4 {
          padding-bottom: 20%;
-      }
+    }
 
       h2,h3,h4     {
         font-size: 35px;
@@ -215,16 +214,18 @@
         height: auto;
            }   
 
-           H1{
+      H1 {
                font-size: 50px;
-           }
+    }
      .container {
          width: 5000px;
          height: 5000;
          margin: 400px;
          padding: -5000px;
-     }
+    }
+    
      #dice {
          margin: 50px;
-     }
+    }
+     
   }
