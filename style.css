@@ -5,7 +5,6 @@ src: url("./font/Lato-Italic.ttf");
 }
 html{
     scroll-behavior: smooth;  
-  
 }
 
 body{
@@ -13,14 +12,17 @@ body{
     font-family: 'Lato', sans-serif;
     text-align: center;
     background-color: mediumpurple;
+    
     }
 
 .container{
     background:url(./image/stade.jpg)no-repeat 60% 60%;
+    border-radius: 25%;
     background-size: auto;
-    background-position: center;
+    
  
 }
+
 
 /*-- Réglage boutons --*/
 .btn {
@@ -53,7 +55,8 @@ body{
     width: 20%;
     height: auto;
             }   
-               
+
+
  h1{
     font-size: 0px;
             }
@@ -126,4 +129,13 @@ margin-left: 12%;
     color: rgb(48, 47, 47);
     text-decoration: none;
     cursor: pointer;
+}
+
+.row {
+    background-position: center;
+}
+
+#dice {
+    margin: 50px;
+    padding: 25px;
 }
