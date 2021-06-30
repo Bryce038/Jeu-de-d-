@@ -134,16 +134,12 @@
 
     .btn {
         
-  height: 40px;
-     
-      
+      height: 40px;
       padding: 0px;
       font-size: 20px;
     }
     
-
 }
-
 
 @media (min-width: 992px) {
     
@@ -190,7 +186,7 @@
 
     h2 {
     padding-top: 10%;
-}
+    }
 }
 
 
@@ -226,6 +222,10 @@
     
      #dice {
          margin: 50px;
+    }
+
+    .tete {
+        margin-left: -200px;
     }
      
   }
