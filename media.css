@@ -1,6 +1,11 @@
 
 
 @media (min-width: 320px) {
+
+      h1{
+          font-size: 30px;
+          padding-top: 10%;
+      }
     
       h3{
           padding-top: 15%;
@@ -30,11 +35,12 @@
             width: 555px;
             margin: 0px;
         }
-        
-        
 
-        
+        #title {
+            
         }
+        
+    }
 
 
 
@@ -213,7 +219,7 @@
            }   
 
       H1 {
-               font-size: 50px;
+               font-size: 150px;
     }
      .container {
          width: 5000px;
