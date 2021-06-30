@@ -18,7 +18,7 @@ body{
 /*--Stade Fond--*/
 .container{
     background:url(./image/stade.jpg)no-repeat 60% 60%;
-    border-radius: 25%;
+    border-radius: 35%;
     background-size: auto;
 }
 

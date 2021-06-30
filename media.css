@@ -36,10 +36,6 @@
             margin: 0px;
         }
 
-        #title {
-            
-        }
-        
     }
 
 
@@ -107,15 +103,11 @@
 
     .btn {
         
-  height: 40px;
-     
-      
+      height: 40px;
       padding: 0px;
       font-size: 20px;
     }
     
-
-
 }
 
 @media (min-width: 768px) {
@@ -146,6 +138,7 @@
       font-size: 20px;
       
     }
+    
     
 }
 
